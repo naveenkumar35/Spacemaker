@@ -1,0 +1,111 @@
+html{
+    background-image: url('https://wallpapercave.com/wp/wp1815139.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 50, 0.5),rgba(0, 0, 50, 0.5)),url(back.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.contact-title
+{
+     margin-right: 60%;
+     margin-top: 12%;
+    color: black;
+    display: block;
+}
+.contact-title h1{
+   
+    text-align:center;
+    font-family: 'Holtwood One SC', serif;
+     margin: 0;
+    
+}
+
+.myform{
+    margin-right: 60%;
+    display: block;
+}
+#pass,#user,#fn,#ln{
+    margin-left: 40%;
+     margin-top: 12%;
+    padding: 10px 40px;
+    text-align:center;
+    margin: 0;
+    border-radius: 10px;
+    background-color: white;
+   
+}
+#insert{
+    
+    padding: 10px 40px;
+    text-align:center;
+    margin-right: 0%;
+    background-color:whitesmoke;
+    font-family: 'Butcherman', cursive;
+    border-radius: 20px;
+   
+}
+@media screen and (max-width: 800px) {
+ 
+    html{
+    background-image: url('https://wallpapercave.com/wp/wp1815139.jpg');
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+
+   body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 50, 0.5),rgba(0, 0, 50, 0.5)),url(back.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.contact-title
+{
+     margin-right: 30%;
+     margin-top: 6%;
+    color: black;
+    display: block;
+}
+.contact-title h1{
+   
+    text-align:center;
+    font-family: 'Holtwood One SC', serif;
+     margin: 0;
+    
+}
+    
+.myform{
+   
+     margin-top: 30%;
+    
+}
+#pass,#user,#fn,#ln{
+    
+   margin-left: 20%;
+     margin-top: 6%;
+    padding: 5px 20px;
+    text-align:center;
+    margin: 0;
+    border-radius: 5px;
+    background-color: white;
+   
+}
+#insert{
+    
+    padding: 3px 20px;
+    background-color: white;
+   
+}
+   
+
+}
